@@ -29,16 +29,14 @@ body{
 }
 
 /* card */
-.cardContainer{
-
-}
-
 .cardImageContainer{
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card{
-  border: 2px solid #2B283A;
+  border-bottom: 2px solid #2B283A;
   display: grid;
   grid-template-columns: repeat(2, auto);
   padding: 1rem;
@@ -49,18 +47,17 @@ body{
 .cardImage{
   margin-right: 1rem;
   border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .allDetails{
   padding: 0.9rem 0;
-  width: 50vw;
+  /* width: 50vw; */
 }
 
-.placeDetails{
-  display: flex;
-  align-items:center;
-  
-}
 
 .fa-location-dot{
   font-size: 1.5rem;
@@ -107,3 +104,16 @@ footer a{
   margin-right: 0.5rem;
 }
 
+@media (max-wdith:690px){
+  .fa-location-dot{
+    font-size: 1rem;
+  }
+  .locationName{
+    font-size: 0.7rem;
+    letter-spacing: 0;
+  }
+
+  .mapsLink{
+    font-size: 1rem;
+  }
+}

@@ -10,7 +10,7 @@ export default function Card(props){
                 <div className="placeDetails">
                     <i className="fa-solid fa-location-dot"></i>
                     <span className="locationName">{props.item.location}</span>
-                    <a className="mapsLink" href={props.item.googleMapsUrl} target="_blank" rel="noopener noreferrer">View on Google Maps</a>
+                    <a className="mapsLink" href={props.item.googleMapsUrl} target="_blank" rel="noopener noreferrer">Google Maps</a>
                 </div>
                 <h2 className="title">{props.item.title}</h2>
                 <p className="date">{props.item.startDate} - {props.item.endDate}</p>
