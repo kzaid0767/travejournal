@@ -4,8 +4,119 @@
 
 body{
   margin: 0;
+  font-family: "Inter", serif;
+  color: #2B283A;
+}
+/* Nav area */
+.appNav,
+.appFooter{
+  background-color: #F55A5A;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  min-width: 560px;
 }
 
-.appNav{
-  background-color: #F55A5A;
+.globe{
+  height: 1.5rem;
+  margin-right: 0.3rem;
+}
+
+/* card */
+.cardContainer{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+.card{
+  height:fit-content;
+  display: flex;
+  padding: 1rem;
+  align-self: flex-start;
+  width: 90%;
+  min-width: 560px;
+}
+
+
+.cardImage{
+  /* height: 100%; */
+  object-fit: cover;
+  width: 10rem;
+  height:20rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+
+.allDetails{
+  padding: 0.9rem 0;
+}
+
+.placeDetails{
+  display: flex;
+  align-items:center;
+  
+}
+
+.fa-location-dot{
+  font-size: 1.5rem;
+  color: #F55A5A;
+}
+
+.locationName{
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin: 0 0.4rem;
+}
+
+.mapsLink{
+  color: #918E9B;
+  font-size: 1.2rem;
+  font-family: inherit;
+}
+
+.title{
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  
+}
+
+.date{
+  font-weight: 800;
+  margin-bottom: -.2rem;
+}
+
+.placeDecription{
+  margin-top: 0.3rem;
+  /* padding: 0.5rem; */
+  line-height: 1.5;
+}
+
+/* Footer area */
+footer a{
+  color: #FFFFFF;
+}
+.fa{
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+@media (min-width:560px){
+  .cardImage{
+    width: 12rem;
+  }
+}
+@media (min-width:640px){
+  .cardImage{
+    width: 13rem;
+  }
+}
+@media (min-width:740px){
+  .cardImage{
+    width: 17rem;
+  }
 }
