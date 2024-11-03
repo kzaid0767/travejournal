@@ -44,7 +44,7 @@ export default [
         description: `Rotterdam is a major port city in Holland. The Maritime Museum's 
         vintage ships and exhibits trace the city's seafaring history. Its 17th-century Delfshaven neighborhood is home 
         to Pilgrim Fathers Church. The city is now known for bold, modern architecture.`,
-        imageUrl: "../public/rotterdam.jpg"
+        imageUrl: "../rotterdam.jpg"
     },
     {
         title: "Mangaf",
@@ -94,6 +94,6 @@ export default [
             districts of Mjini Magharibi Region in Tanzania. The district covers an area of 15.4 km². The district is comparable 
             in size to the land area of Nauru. 
             The district has a water border to the west by the Indian Ocean.`,
-        imageUrl: "../public/zanzibar.jpg"
+        imageUrl: "./assets/zanzibar.jpg"
     },
 ]

@@ -1,11 +1,10 @@
-import data from "./data";
-import fill from './assets/filllocation.png'
+
 
 export default function Card(props){
     return(
         <div className="card">
             <div className="cardImageContainer">
-                <img className="cardImage" src={props.item.imageUrl} alt={`${props.item.title} shown in a picture`} />
+                <img className="cardImage" src={props.imageUrl} alt={`${props.item.title} shown in a picture`} />
             </div>
             <div className="allDetails">
                 <div className="placeDetails">
