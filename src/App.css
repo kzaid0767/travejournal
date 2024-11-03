@@ -6,6 +6,10 @@ body{
   margin: 0;
   font-family: "Inter", serif;
   color: #2B283A;
+  display: grid;
+  grid-template-columns: auto;
+  place-items: center;
+  
 }
 /* Nav area */
 .appNav,
@@ -16,7 +20,7 @@ body{
   justify-content: center;
   align-items: center;
   height: 3rem;
-  min-width: 560px;
+  
 }
 
 .globe{
@@ -26,32 +30,31 @@ body{
 
 /* card */
 .cardContainer{
-  display: flex;
-  flex-direction: column;
-  justify-self: center;
+
+}
+
+.cardImageContainer{
+  
 }
 
 .card{
-  height:fit-content;
-  display: flex;
+  border: 2px solid #2B283A;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
   padding: 1rem;
-  align-self: flex-start;
-  width: 90%;
-  min-width: 560px;
+  
 }
 
 
 .cardImage{
-  /* height: 100%; */
-  object-fit: cover;
-  width: 10rem;
-  height:20rem;
   margin-right: 1rem;
   border-radius: 5px;
+  
 }
 
 .allDetails{
   padding: 0.9rem 0;
+  width: 50vw;
 }
 
 .placeDetails{
@@ -105,18 +108,3 @@ footer a{
   margin-right: 0.5rem;
 }
 
-@media (min-width:560px){
-  .cardImage{
-    width: 12rem;
-  }
-}
-@media (min-width:640px){
-  .cardImage{
-    width: 13rem;
-  }
-}
-@media (min-width:740px){
-  .cardImage{
-    width: 17rem;
-  }
-}

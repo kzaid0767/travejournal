@@ -4,7 +4,9 @@ import fill from './assets/filllocation.png'
 export default function Card(props){
     return(
         <div className="card">
-            <img className="cardImage" src={props.item.imageUrl} alt={`${props.item.title} shown in a picture`} />
+            <div className="cardImageContainer">
+                <img className="cardImage" src={props.item.imageUrl} alt={`${props.item.title} shown in a picture`} />
+            </div>
             <div className="allDetails">
                 <div className="placeDetails">
                     <i className="fa-solid fa-location-dot"></i>
