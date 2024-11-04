@@ -21,7 +21,7 @@ function App() {
   return (
     <>
       <Nav />
-      <div className="cardContainer">
+      <div className="cardsContainer">
         {cards}
       </div>
       <Footer />
